@@ -32,7 +32,7 @@
 						<key>MacroActionType</key>
 						<string>Growl</string>
 						<key>Text</key>
-						<string>%CurrentTrack%name% by %CurrentTrack%artist%
+						<string>"%CurrentTrack%name%" by %CurrentTrack%artist%
 %CurrentTrack%ratingstars%</string>
 						<key>Title</key>
 						<string>Now Playing</string>

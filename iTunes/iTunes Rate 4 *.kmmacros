@@ -32,7 +32,7 @@
 						<key>MacroActionType</key>
 						<string>Growl</string>
 						<key>Text</key>
-						<string>Rating for %CurrentTrack%name% set to %CurrentTrack%ratingstars%.</string>
+						<string>Rating for "%CurrentTrack%name%" set to %CurrentTrack%ratingstars%.</string>
 						<key>Title</key>
 						<string>%CurrentTrack%name% by %CurrentTrack%artist%</string>
 					</dict>

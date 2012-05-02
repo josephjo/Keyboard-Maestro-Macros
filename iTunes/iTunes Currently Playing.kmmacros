@@ -13,18 +13,6 @@
 				<key>Actions</key>
 				<array>
 					<dict>
-						<key>Argument</key>
-						<string>40</string>
-						<key>Command</key>
-						<string>SetRating</string>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>MacroActionType</key>
-						<string>iTunesControl</string>
-					</dict>
-					<dict>
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
@@ -32,22 +20,23 @@
 						<key>MacroActionType</key>
 						<string>Growl</string>
 						<key>Text</key>
-						<string>Rating for "%CurrentTrack%name%" set to %CurrentTrack%ratingstars%.</string>
+						<string>"%CurrentTrack%name%" by %CurrentTrack%artist%
+%CurrentTrack%ratingstars%</string>
 						<key>Title</key>
-						<string>%CurrentTrack%name% by %CurrentTrack%artist%</string>
+						<string>Now Playing</string>
 					</dict>
 				</array>
 				<key>IsActive</key>
 				<true/>
 				<key>Name</key>
-				<string>iTunes Rate 2 *</string>
+				<string>iTunes Currently Playing</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
 						<key>FireType</key>
 						<string>Pressed</string>
 						<key>KeyCode</key>
-						<integer>19</integer>
+						<integer>6</integer>
 						<key>MacroTriggerType</key>
 						<string>HotKey</string>
 						<key>Modifiers</key>
@@ -57,7 +46,7 @@
 					</dict>
 				</array>
 				<key>UID</key>
-				<string>0E7FD453-6AE2-41F0-9F8B-8847BF7D14F0</string>
+				<string>4771AAF4-5B12-4085-B013-1C807B7DDC0D</string>
 			</dict>
 		</array>
 		<key>Name</key>
