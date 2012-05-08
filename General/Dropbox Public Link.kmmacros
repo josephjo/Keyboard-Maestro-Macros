@@ -123,11 +123,11 @@
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
-						<false/>
+						<true/>
 						<key>MacroActionType</key>
 						<string>ExecuteMacro</string>
 						<key>MacroUID</key>
-						<string>AC9488FC-A7D9-4A4F-BA3C-7A1C75D1FDA6</string>
+						<string>50ED8056-D4CC-4C26-9147-4B70F81432E9</string>
 						<key>TimeOutAbortsMacro</key>
 						<true/>
 					</dict>
