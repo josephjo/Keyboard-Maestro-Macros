@@ -27,124 +27,6 @@
 						<false/>
 					</dict>
 					<dict>
-						<key>Application</key>
-						<dict/>
-						<key>File</key>
-						<data>
-						AAAAAAE6AAIAAQUxMjBHQgAAAAAA
-						AAAAAAAAAAAAAAAAAAAAAADLfjRy
-						SCsAAAASq4QGUHVibGljAAAAAAAA
-						AAAAAAAAAAAAAAAAAAAAAAAAAAAA
-						AAAAAAAAAAAAAAAAAAAAAAAAAAAA
-						AAAAAAAAAAAAABLdCcikZwAAAAAA
-						AAAAAP////8AAAkgAAAAAAAAAAAA
-						AAAAAAAAB0Ryb3Bib3gAABAACAAA
-						y356wgAAABEACAAAyKSfQAAAAAEA
-						DAASq4QADdNdAA3M2AACAB4xMjBH
-						QjpVc2Vyczpqam86RHJvcGJveDpQ
-						dWJsaWMADgAOAAYAUAB1AGIAbABp
-						AGMADwAMAAUAMQAyADAARwBCABIA
-						GFVzZXJzL2pqby9Ecm9wYm94L1B1
-						YmxpYwATAAEvAAAVAAIACv//AAA=
-						</data>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDefaultApplication</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>MacroActionType</key>
-						<string>Open1File</string>
-						<key>NewFile</key>
-						<string>/Users/jjo/Dropbox/Public</string>
-						<key>Path</key>
-						<string>~/Dropbox/Public</string>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<false/>
-						<key>KeyCode</key>
-						<integer>9</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>256</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<false/>
-						<key>KeyCode</key>
-						<integer>13</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>256</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<false/>
-						<key>KeyCode</key>
-						<integer>36</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<false/>
-						<key>KeyCode</key>
-						<integer>0</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>256</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<false/>
-						<key>KeyCode</key>
-						<integer>8</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>256</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<false/>
-						<key>KeyCode</key>
-						<integer>36</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
@@ -157,52 +39,83 @@
 						<string>http://dl.dropbox.com/u/280384/%CurrentClipboard%</string>
 					</dict>
 					<dict>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>DisplayKind</key>
+								<string>Variable</string>
+								<key>File</key>
+								<data>
+								</data>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteShellScript</string>
+								<key>NewFile</key>
+								<string></string>
+								<key>Path</key>
+								<string></string>
+								<key>Text</key>
+								<string>basename "$KMVAR_filePath"</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+								<key>Variable</key>
+								<string>basename</string>
+							</dict>
+						</array>
+						<key>Collections</key>
+						<dict>
+							<key>CollectionList</key>
+							<array>
+								<dict>
+									<key>CollectionType</key>
+									<string>FinderSelection</string>
+								</dict>
+							</array>
+						</dict>
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
 						<false/>
-						<key>KeyCode</key>
-						<integer>51</integer>
 						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>256</integer>
-						<key>ReleaseAll</key>
-						<false/>
+						<string>For</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Variable</key>
+						<string>filePath</string>
 					</dict>
 					<dict>
-						<key>Application</key>
-						<dict/>
+						<key>DisplayKind</key>
+						<string>Window</string>
 						<key>File</key>
 						<data>
-						AAAAAAE6AAIAAQUxMjBHQgAAAAAA
-						AAAAAAAAAAAAAAAAAAAAAADLfjRy
-						SCsAAAASq4QGUHVibGljAAAAAAAA
-						AAAAAAAAAAAAAAAAAAAAAAAAAAAA
-						AAAAAAAAAAAAAAAAAAAAAAAAAAAA
-						AAAAAAAAAAAAABLdCcikZwAAAAAA
-						AAAAAP////8AAAkgAAAAAAAAAAAA
-						AAAAAAAAB0Ryb3Bib3gAABAACAAA
-						y356wgAAABEACAAAyKSfQAAAAAEA
-						DAASq4QADdNdAA3M2AACAB4xMjBH
-						QjpVc2Vyczpqam86RHJvcGJveDpQ
-						dWJsaWMADgAOAAYAUAB1AGIAbABp
-						AGMADwAMAAUAMQAyADAARwBCABIA
-						GFVzZXJzL2pqby9Ecm9wYm94L1B1
-						YmxpYwATAAEvAAAVAAIACv//AAA=
 						</data>
 						<key>IsActive</key>
 						<true/>
-						<key>IsDefaultApplication</key>
-						<true/>
 						<key>IsDisclosed</key>
 						<false/>
 						<key>MacroActionType</key>
-						<string>Open1File</string>
+						<string>ExecuteShellScript</string>
 						<key>NewFile</key>
-						<string>/Users/jjo/Dropbox/Public</string>
+						<string></string>
 						<key>Path</key>
-						<string>/Users/jjo/Dropbox/Public</string>
+						<string></string>
+						<key>Text</key>
+						<string>mv "$KMVAR_filePath" ~/Dropbox/Public</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
 					</dict>
 					<dict>
 						<key>Count</key>
@@ -217,6 +130,40 @@
 						<string>AC9488FC-A7D9-4A4F-BA3C-7A1C75D1FDA6</string>
 						<key>TimeOutAbortsMacro</key>
 						<true/>
+					</dict>
+					<dict>
+						<key>Application</key>
+						<dict/>
+						<key>File</key>
+						<data>
+						AAAAAAE6AAIAAQUxMjBHQgAAAAAA
+						AAAAAAAAAAAAAAAAAAAAAADLfjRy
+						SCsAAAASq4QGUHVibGljAAAAAAAA
+						AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+						AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+						AAAAAAAAAAAAABLdCcikZwAAAAAA
+						AAAAAP////8AAAkgAAAAAAAAAAAA
+						AAAAAAAAB0Ryb3Bib3gAABAACAAA
+						y356wgAAABEACAAAyKSfQAAAAAEA
+						DAASq4QADdNdAA3M2AACAB4xMjBH
+						QjpVc2Vyczpqam86RHJvcGJveDpQ
+						dWJsaWMADgAOAAYAUAB1AGIAbABp
+						AGMADwAMAAUAMQAyADAARwBCABIA
+						GFVzZXJzL2pqby9Ecm9wYm94L1B1
+						YmxpYwATAAEvAAAVAAIACv//AAA=
+						</data>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDefaultApplication</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Open1File</string>
+						<key>NewFile</key>
+						<string>/Users/jjo/Dropbox/Public</string>
+						<key>Path</key>
+						<string>/Users/jjo/Dropbox/Public</string>
 					</dict>
 				</array>
 				<key>IsActive</key>
@@ -239,7 +186,7 @@
 					</dict>
 				</array>
 				<key>UID</key>
-				<string>212F8E12-F670-4F6D-A315-D6407BAABFC4</string>
+				<string>8F3E68EC-3AA6-4ACF-B9E6-D5EB01AF350D</string>
 			</dict>
 		</array>
 		<key>Name</key>
