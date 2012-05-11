@@ -79,7 +79,20 @@
 							<string>All</string>
 						</dict>
 						<key>ElseActions</key>
-						<array/>
+						<array>
+							<dict>
+								<key>Argument</key>
+								<string></string>
+								<key>Command</key>
+								<string>PlayPause</string>
+								<key>IsActive</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>iTunesControl</string>
+							</dict>
+						</array>
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
