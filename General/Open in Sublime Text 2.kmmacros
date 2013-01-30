@@ -13,95 +13,27 @@
 				<key>Actions</key>
 				<array>
 					<dict>
-						<key>Actions</key>
-						<array>
-							<dict>
-								<key>DisplayKind</key>
-								<string>Variable</string>
-								<key>IsActive</key>
-								<true/>
-								<key>IsDisclosed</key>
-								<true/>
-								<key>MacroActionType</key>
-								<string>ExecuteShellScript</string>
-								<key>Path</key>
-								<string></string>
-								<key>Text</key>
-								<string>basename "$KMVAR_filePath"</string>
-								<key>TimeOutAbortsMacro</key>
-								<true/>
-								<key>TrimResults</key>
-								<true/>
-								<key>UseText</key>
-								<true/>
-								<key>Variable</key>
-								<string>basename</string>
-							</dict>
-						</array>
-						<key>Collections</key>
+						<key>Application</key>
 						<dict>
-							<key>CollectionList</key>
-							<array>
-								<dict>
-									<key>CollectionType</key>
-									<string>FinderSelection</string>
-								</dict>
-							</array>
+							<key>BundleIdentifier</key>
+							<string>com.sublimetext.2</string>
+							<key>Creator</key>
+							<integer>1937072748</integer>
+							<key>FileType</key>
+							<integer>1095782476</integer>
+							<key>Name</key>
+							<string>Sublime Text 2.app</string>
+							<key>NewFile</key>
+							<string>/Applications/Sublime Text 2.app</string>
 						</dict>
 						<key>IsActive</key>
 						<true/>
+						<key>IsCurrentApplication</key>
+						<false/>
 						<key>IsDisclosed</key>
 						<true/>
 						<key>MacroActionType</key>
-						<string>For</string>
-						<key>TimeOutAbortsMacro</key>
-						<true/>
-						<key>Variable</key>
-						<string>filePath</string>
-					</dict>
-					<dict>
-						<key>DisplayKind</key>
-						<string>Variable</string>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>MacroActionType</key>
-						<string>ExecuteShellScript</string>
-						<key>Path</key>
-						<string></string>
-						<key>Text</key>
-						<string>echo "$KMVAR_filePath"</string>
-						<key>TimeOutAbortsMacro</key>
-						<true/>
-						<key>TrimResults</key>
-						<true/>
-						<key>UseText</key>
-						<true/>
-						<key>Variable</key>
-						<string>File_Path</string>
-					</dict>
-					<dict>
-						<key>DisplayKind</key>
-						<string>Window</string>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>MacroActionType</key>
-						<string>ExecuteShellScript</string>
-						<key>Path</key>
-						<string></string>
-						<key>Text</key>
-						<string>/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl -n $KMVAR_filePath</string>
-						<key>TimeOutAbortsMacro</key>
-						<true/>
-						<key>TrimResults</key>
-						<true/>
-						<key>UseText</key>
-						<true/>
-						<key>Variable</key>
-						<string>Variable</string>
+						<string>OpenFinderSelection</string>
 					</dict>
 				</array>
 				<key>IsActive</key>
@@ -124,7 +56,7 @@
 					</dict>
 				</array>
 				<key>UID</key>
-				<string>7755C2DD-8FB4-4CF8-A9B8-B0F6DE2ADDC8</string>
+				<string>0B3CB02C-39FF-4CC3-B03B-A5C23AA25CB2</string>
 			</dict>
 		</array>
 		<key>Name</key>
