@@ -14,7 +14,17 @@
 				<array>
 					<dict>
 						<key>Action</key>
-						<string>ByPasting</string>
+						<string>RemoveStyles</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>FilterClipboard</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
@@ -22,7 +32,7 @@
 						<key>MacroActionType</key>
 						<string>InsertText</string>
 						<key>Paste</key>
-						<true/>
+						<false/>
 						<key>Text</key>
 						<string>%CurrentClipboard%</string>
 					</dict>
