@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>Window</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>osascript -e 'tell application "Spotify" to next track';
+
+artist=`osascript -e 'tell application "Spotify" to artist of current track as string'`;
+track=`osascript -e 'tell application "Spotify" to name of current track as string'`;
+
+echo "\"$track\" by $artist" | pbcopy</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Variable</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Growl</string>
+						<key>Text</key>
+						<string>Next song: %CurrentClipboard%</string>
+						<key>Title</key>
+						<string>Spotify</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>Name</key>
+				<string>Spotify Next Track</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>2</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>2048</integer>
+						<key>TriggerRepeat</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>4C2EEB74-735D-4DC4-A657-458B536CAF10</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Spotify</string>
+		<key>UID</key>
+		<string>8F5A6A92-587F-41E8-A192-AA8F2468939C</string>
+	</dict>
+</array>
+</plist>
