@@ -24,12 +24,15 @@
 						<key>Path</key>
 						<string></string>
 						<key>Text</key>
-						<string>osascript -e 'tell application "Spotify" to previous track';
+						<string>state=`osascript -e 'tell application "Spotify" to player state as string'`;
 
-artist=`osascript -e 'tell application "Spotify" to artist of current track as string'`;
-track=`osascript -e 'tell application "Spotify" to name of current track as string'`;
+if [ $state = "playing" ]; then
+    osascript -e 'tell application "Spotify" to previous track';
+    artist=`osascript -e 'tell application "Spotify" to artist of current track as string'`;
+    track=`osascript -e 'tell application "Spotify" to name of current track as string'`;
 
-echo "\"$track\" by $artist" | pbcopy</string>
+    echo "\"$track\" by $artist" | pbcopy
+fi</string>
 						<key>TimeOutAbortsMacro</key>
 						<true/>
 						<key>TrimResults</key>
